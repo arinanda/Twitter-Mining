@@ -5,6 +5,8 @@ from tweepy import Stream
 from tweepy.streaming import StreamListener
 from twitter_client import get_twitter_auth
 
+#python twitter_streaming.py \#<hashtag> topic (bisa lebih dari 1)
+
 class CustomListener(StreamListener):
     """Custom StreamListener for streaming Twitter data."""
 
