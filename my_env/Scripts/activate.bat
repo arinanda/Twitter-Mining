@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=D:\TUGAS AKHIR\Twitter-Mining\my_env"
+set "VIRTUAL_ENV=E:\Project\Twitter-Mining\my_env"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
