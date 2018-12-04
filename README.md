@@ -5,10 +5,11 @@ Some source code for Twitter mining, written in Python. For Rakhma Rufaida Hanum
 ## Prerequisites
 
 1. Python 3.6.4. You can download it [here](https://www.python.org/downloads/release/python-364/).
-2. Tweepy 3.3.0. To install it, run `pip install tweepy==3.3.0` from your terminal.
+2. Tweepy 3.3.0. To install it, run `sudo pip3 install tweepy==3.3.0` from your terminal.
 
 ### Installation Notes
 
+- If you are using Python >3.7, replace all `async` with `async_` in streaming.py
 - Get your [Twitter Apps API Key](https://apps.twitter.com).
 - Set your environment variables. If you are using windows, then you can open your terminal and then write down:
     - `set TWITTER_CONSUMER_KEY=<your-consumer-key>`
